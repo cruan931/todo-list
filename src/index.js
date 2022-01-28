@@ -50,7 +50,7 @@ class Task extends React.Component {
 		
 				<input 
 					type="text" 
-					onChange={(e)=>setName(e.target.value)}
+					onChange={(e)=>this.setName(e.target.value)}
 					ref={this.labelRef} 
 					htmlFor="myCheck"
 				>
